@@ -1,0 +1,6 @@
+﻿{
+  "known_names": ["Jordan", "Mercer", "Priya"],
+  "voices": {"Agent": "Microsoft Zira Desktop", "Customer": "Microsoft David Desktop"},
+  "whisper_model": "small.en",
+  "gap_seconds": 0.5
+}

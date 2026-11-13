@@ -1,0 +1,118 @@
+[
+ {
+  "speaker": "Agent",
+  "start": 0.0,
+  "end": 5.6,
+  "text": "Thank you for calling Brightwave Support, this is [NAME]. How can I help you today?",
+  "pii_found": [
+   "NAME"
+  ],
+  "purpose": "greeting"
+ },
+ {
+  "speaker": "Customer",
+  "start": 6.67,
+  "end": 15.17,
+  "text": "Hi [NAME], my name is [NAME]. I ordered a pair of headphones two weeks ago and they arrived with a cracked left ear cup.",
+  "pii_found": [
+   "NAME"
+  ],
+  "purpose": "complaint"
+ },
+ {
+  "speaker": "Agent",
+  "start": 16.67,
+  "end": 21.33,
+  "text": "I'm sorry to hear that, [NAME]. Can I get your order number please?",
+  "pii_found": [
+   "NAME"
+  ],
+  "purpose": "identity_verification"
+ },
+ {
+  "speaker": "Customer",
+  "start": 23.06,
+  "end": 27.76,
+  "text": "Sure, it's order number [ORDER_ID].",
+  "pii_found": [
+   "ORDER_ID"
+  ],
+  "purpose": "identity_verification"
+ },
+ {
+  "speaker": "Agent",
+  "start": 29.36,
+  "end": 33.54,
+  "text": "Thank you. And a phone number on the account so I can confirm it's you?",
+  "pii_found": [],
+  "purpose": "identity_verification"
+ },
+ {
+  "speaker": "Customer",
+  "start": 34.65,
+  "end": 39.33,
+  "text": "Yes, it's [PHONE].",
+  "pii_found": [
+   "PHONE"
+  ],
+  "purpose": "provide_info"
+ },
+ {
+  "speaker": "Agent",
+  "start": 40.76,
+  "end": 44.86,
+  "text": "Got it. I can see the order, delivered on the 3rd of November.",
+  "pii_found": [],
+  "purpose": "confirmation"
+ },
+ {
+  "speaker": "Customer",
+  "start": 46.43,
+  "end": 50.77,
+  "text": "I would like a full refund, please. I don't want a replacement.",
+  "pii_found": [],
+  "purpose": "refund_request"
+ },
+ {
+  "speaker": "Agent",
+  "start": 52.44,
+  "end": 58.98,
+  "text": "Absolutely. I have issued a full refund. It will reach your card in 3-5 business days.",
+  "pii_found": [],
+  "purpose": "resolution"
+ },
+ {
+  "speaker": "Customer",
+  "start": 60.59,
+  "end": 63.95,
+  "text": "Great, thank you so much. That was quick.",
+  "pii_found": [],
+  "purpose": "confirmation"
+ },
+ {
+  "speaker": "Agent",
+  "start": 65.08,
+  "end": 70.02,
+  "text": "You're welcome, [NAME]. Is there anything else I can help with today?",
+  "pii_found": [
+   "NAME"
+  ],
+  "purpose": "closing"
+ },
+ {
+  "speaker": "Customer",
+  "start": 70.57,
+  "end": 74.57,
+  "text": "No, that's everything. Have a good day.",
+  "pii_found": [],
+  "purpose": "closing"
+ },
+ {
+  "speaker": "Agent",
+  "start": 75.95,
+  "end": 77.57,
+  "text": "You too. Goodbye.",
+  "pii_found": [],
+  "purpose": "closing"
+ }
+]
